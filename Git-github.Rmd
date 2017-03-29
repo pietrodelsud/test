@@ -1,0 +1,95 @@
+---
+title: "Git-Github"
+output: html_document
+---
+
+### Setup a GitHub account
+
+* https://guides.github.com/activities/hello-world/
+
+
+* Registration
+* Create a Repository
+
+### Test and configure Git
+
+Configure Git with global commands. 
+
+* Open the bash version of Git
+* git config –global user.name “your GitHub account name”                                 
+* git config –global user.email “GitHubEmail@something.com”
+
+### Set up Rstudio 
+
+* Go to Tools > Options > Git/SVN  
+
+![Local](img/git1.png)
+
+
+* Set the path to Git executable  (git.exe) file
+* Restart RStudio
+
+### Create git Project
+
+* Get your github project url
+
+![Local](img/git2.png)
+
+* Project > Create Project > Version Control > Git
+
+![Local](img/git3.png)
+
+* copy and paste the github url 
+
+* next step is to ‘commit’ your work
+
+
+### Git stages
+
+
+![Local](img/git states.png)
+
+
+![Local](img/git-stages.svg)
+
+![Local](img/gitstages.jpg)
+
+![Local](img/simple_git_daily_workflow.png)
+
+
+### Practice
+
+### Create and commit a file
+
+* Make your first commit
+ + Create a file
+ + Click the Git tab
+    + Check Staged next to .gitignore and your file
+    + Click Commit
+    + Type a message in Commit message
+    + Click Commit
+
+![Local](img/commit1.png)
+   
+* Create a new Rmd file
+    + Click File -> New File -> R Markdown
+    + Edit the file and change the title
+    + Save the file
+* Commit the new Rmd file
+    + Check Staged and click Commit
+  
+* Push to Github
+    + Use the push button
+    + Go to Github to see your modifications
+
+
+### SSH
+
+Version control repositories can typically be accessed using a variety of protocols (including http and https). Many repositories can also be accessed using SSH (this is the mode of connection for many hosting services including GitHub and R-Forge).
+
+
+### Misc
+
+* https://www.youtube.com/watch?v=aM0bjrYCvv8
+* http://rogerdudler.github.io/git-guide/index.fr.html
+* https://git-scm.com/book/en/v2
